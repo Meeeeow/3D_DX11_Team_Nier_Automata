@@ -1,0 +1,1351 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<Project ToolsVersion="4.0" xmlns="http://schemas.microsoft.com/developer/msbuild/2003">
+  <ItemGroup>
+    <Filter Include="00. MainApplication">
+      <UniqueIdentifier>{5965f41b-786a-4349-a67e-af21a3eaece2}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="99. Defines">
+      <UniqueIdentifier>{e98a9678-f7fc-4c42-a4fe-531da6cbada2}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="96. Sound Manager">
+      <UniqueIdentifier>{a42ffd64-7862-4e4a-97c6-d0b76bed5925}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="01. Level">
+      <UniqueIdentifier>{9dbeece8-86f6-4bcf-8a9e-a3b34ad4c0f6}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="01. Level\00. Loading">
+      <UniqueIdentifier>{eb6347c4-4b00-43bf-93e1-0cc80dcf7845}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="01. Level\00. Loading\Loader">
+      <UniqueIdentifier>{5af0d04b-2dee-462d-87e8-0c3d3d555733}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="01. Level\02. Stage1">
+      <UniqueIdentifier>{a7cb3d07-baf1-41db-adfa-877d22ac3532}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="01. Level\01. Logo">
+      <UniqueIdentifier>{914068a6-1af3-4fce-b4e6-cd1b182d246b}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="02. GameObject - Model">
+      <UniqueIdentifier>{dc00a92c-b0cd-47f0-9134-75e9917ff90e}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="02. GameObject - Model\00. 2B">
+      <UniqueIdentifier>{169ad330-e4da-43c8-9fb2-7a926e350b90}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="02. GameObject - Model\99. ModelBase">
+      <UniqueIdentifier>{f1a8b515-41ba-4dec-b304-37d7a7866b38}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="03. GameObject - Camera">
+      <UniqueIdentifier>{edced3f4-7106-404a-9980-0ec96b43c049}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="02. GameObject - Model\00. 2B\00. Katana">
+      <UniqueIdentifier>{d4a1070d-7aaa-41f5-8203-4836b10528fb}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="04. GameObject - Effect">
+      <UniqueIdentifier>{63050763-a9aa-46b3-a222-38c9a4b5950c}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="04. GameObject - Effect\MeshEffect">
+      <UniqueIdentifier>{ad2fea67-1fb8-48ed-87cd-7ea6539bd9f3}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="03. GameObject - Camera\Camera_Main">
+      <UniqueIdentifier>{19836705-3557-4d7f-ae30-da2c3cc44e19}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="02. GameObject - Model\01. Enemy - Seed">
+      <UniqueIdentifier>{4e812008-27a3-44f5-8877-6325d622a80a}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="02. GameObject - Model\01. Enemy - Seed\00. Humanoid Small">
+      <UniqueIdentifier>{210c5838-5b7a-48f3-a00d-a1875d10a647}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="02. GameObject - Model\02 .Enemy - Boss">
+      <UniqueIdentifier>{d400b2c4-ee96-48e5-a04c-a82869332439}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="02. GameObject - Model\03. BackGround">
+      <UniqueIdentifier>{727c122c-913a-4daa-aeb7-bbbdd789db15}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="02. GameObject - Model\03. BackGround\00. Building">
+      <UniqueIdentifier>{1de76fc1-b3cd-4200-a461-5641f3640645}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="02. GameObject - Model\02 .Enemy - Boss\00. Beauvoir">
+      <UniqueIdentifier>{77b2e2b4-e8e7-4363-a049-36a69b4667f6}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="05. GameObject - Projection">
+      <UniqueIdentifier>{cfd75ed5-1597-431d-9fc9-ec58fb766539}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="05. GameObject - Projection\00. Background">
+      <UniqueIdentifier>{3b75e664-fff2-4bfe-9e11-57d1384ea209}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="05. GameObject - Projection\00. Background\00. LogoScreen">
+      <UniqueIdentifier>{6944e9fb-a241-4a02-97d3-be1cf1228363}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="05. GameObject - Projection\00. Background\99. Projection Base">
+      <UniqueIdentifier>{cf32a667-619f-497e-b270-61214b5ad47e}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="06. GameObject - UI">
+      <UniqueIdentifier>{a16c05cb-0cd8-447e-a1e5-c4e3903c3462}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="06. GameObject - UI\00. HUD">
+      <UniqueIdentifier>{766f9446-41de-4bac-8a7b-2057f90f3a3f}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="06. GameObject - UI\00. HUD\00. Level">
+      <UniqueIdentifier>{0aba871f-fa7c-4d5e-a802-c4cdba106d56}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="06. GameObject - UI\00. HUD\00. Level\Monster">
+      <UniqueIdentifier>{bb2a48ab-6646-45ba-ad9b-73dd461cc617}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="06. GameObject - UI\00. HUD\00. Level\Monster\Contents">
+      <UniqueIdentifier>{443ab489-7301-4380-a465-53eac7872b8f}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="06. GameObject - UI\00. HUD\00. Level\Monster\Frame">
+      <UniqueIdentifier>{251871c3-86bd-4b4b-94e8-4a501284f596}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="06. GameObject - UI\00. HUD\00. Level\Player">
+      <UniqueIdentifier>{79ed71e3-c118-45c8-9c95-a5564900e59f}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="06. GameObject - UI\00. HUD\00. Level\Player\Contents">
+      <UniqueIdentifier>{d8220091-e9c8-49fc-9d9b-bbc2b4ad5baa}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="06. GameObject - UI\00. HUD\00. Level\Player\Frame">
+      <UniqueIdentifier>{c86f6f3d-e540-4822-b2e3-6589cb1d6c76}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="06. GameObject - UI\00. HUD\01. HpBar">
+      <UniqueIdentifier>{25165c98-8b48-4906-bf67-7dd4deee0f7d}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="06. GameObject - UI\00. HUD\01. HpBar\Monster">
+      <UniqueIdentifier>{f58bac8a-3076-4b9e-bc5b-6ed321b81779}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="06. GameObject - UI\00. HUD\01. HpBar\Monster\Contents">
+      <UniqueIdentifier>{5b199b79-87ce-4c42-8ff9-b7f467aaddfa}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="06. GameObject - UI\00. HUD\01. HpBar\Monster\Frame">
+      <UniqueIdentifier>{90da33fe-28f3-4530-a782-193ffc07ad6a}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="06. GameObject - UI\00. HUD\01. HpBar\Player">
+      <UniqueIdentifier>{b8278107-16c7-415e-b05e-d7cdee1c805c}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="06. GameObject - UI\00. HUD\01. HpBar\Player\Contents">
+      <UniqueIdentifier>{eef3649e-9981-473b-b546-e13920a20a9a}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="06. GameObject - UI\00. HUD\01. HpBar\Player\Frame">
+      <UniqueIdentifier>{4a817bf6-4b00-4c8b-b9e9-da441d8037b3}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="06. GameObject - UI\00. HUD\02. Target">
+      <UniqueIdentifier>{6bfc3cf5-a828-440c-ae83-0fef8e41c186}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="06. GameObject - UI\00. HUD\03. Pointer">
+      <UniqueIdentifier>{550a8ba9-5227-4b84-a87a-15c5287aab0a}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="06. GameObject - UI\00. HUD\04. Damage">
+      <UniqueIdentifier>{219655a4-f230-4df2-b6f1-cf8dd48f00a3}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="06. GameObject - UI\00. HUD\05. MiniMap">
+      <UniqueIdentifier>{313eba56-373b-44f5-b2ff-3c8b10e50099}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="06. GameObject - UI\01. Core">
+      <UniqueIdentifier>{8c3ab5e2-89f3-4d84-b784-5707c0fffdb6}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="06. GameObject - UI\01. Core\01. Cursor">
+      <UniqueIdentifier>{dd2ecb35-68b9-42de-9cdf-91e6186a3cd2}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="02. GameObject - Model\00. 2B\01.LongKatana">
+      <UniqueIdentifier>{9f3df344-4df3-4258-8961-5cde55ce966e}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="02. GameObject - Model\01. Enemy - Seed\01. Humanoid Big">
+      <UniqueIdentifier>{9eae74bd-26bf-4ac0-8c69-8e8d759c4733}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="06. GameObject - UI\01. Core\00. Background">
+      <UniqueIdentifier>{0d491e86-2400-49b4-98ec-561567b394b0}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="02. GameObject - Model\04. 9S">
+      <UniqueIdentifier>{0fab55be-ab66-4b4f-8db0-08ef47aef7f3}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="02. GameObject - Model\00. 2B\02.Spear">
+      <UniqueIdentifier>{0a8145fa-a938-4d73-8ac5-0194923690a2}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="02. GameObject - Model\00. 2B\04.POD">
+      <UniqueIdentifier>{c72e8975-3aef-415a-8131-86d2c8cc781e}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="02. GameObject - Model\00. 2B\04.POD\00.PodBullet">
+      <UniqueIdentifier>{172c80f9-32e9-461f-abf9-c953f3ca2848}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="02. GameObject - Model\00. 2B\04.POD\01.Pod9S">
+      <UniqueIdentifier>{6172db14-5db4-4161-92a1-92e966ab1fe3}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="02. GameObject - Model\00. 2B\03.Gauntlet">
+      <UniqueIdentifier>{67df09d4-c6cf-431c-b548-2efc51ae2b9a}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="06. GameObject - UI\02. Dialogue">
+      <UniqueIdentifier>{a80b41c4-cc4c-4197-813a-4415e52076ac}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="06. GameObject - UI\02. Dialogue\00. SystemMessage">
+      <UniqueIdentifier>{42fff18f-76e2-454c-b884-8c16e3187001}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="06. GameObject - UI\02. Dialogue\01. HighlightMessage">
+      <UniqueIdentifier>{0ea0be17-4b99-4690-b2b3-8b272cdc219d}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="06. GameObject - UI\02. Dialogue\02. ActorMessage">
+      <UniqueIdentifier>{d4fbf818-7695-4f0f-9c1a-f5435c10217e}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="06. GameObject - UI\02. Dialogue\03. OptionMessage">
+      <UniqueIdentifier>{9c359a7d-7ebb-4455-80ea-af29b3fcc589}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="07. PostProcesser">
+      <UniqueIdentifier>{36bd94d7-1e42-4f45-b6e9-7df7cec0fa09}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="02. GameObject - Model\01. Enemy - Seed\01. Humanoid Big\Humanoid Bullet">
+      <UniqueIdentifier>{58b3a340-e1e5-4693-bee2-328e565e2808}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="02. GameObject - Model\02 .Enemy - Boss\01. Tank">
+      <UniqueIdentifier>{c5bab39e-d0a8-45ea-988a-58b91787cbe0}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="06. GameObject - UI\01. Core\02. Head">
+      <UniqueIdentifier>{9b1f12d6-eb01-4dbe-9805-0b8bd4d31531}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="06. GameObject - UI\01. Core\02. Head\02. DecoLine">
+      <UniqueIdentifier>{2d24d4e1-d681-4f4c-969a-283f24e60a25}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="06. GameObject - UI\01. Core\02. Head\00. Title">
+      <UniqueIdentifier>{4b06c18b-1921-463d-8b9e-c539fd82ed4e}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="06. GameObject - UI\01. Core\02. Head\01. Button">
+      <UniqueIdentifier>{c45281c8-7b92-4108-86a4-b26a1084f85b}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="06. GameObject - UI\01. Core\03. Body">
+      <UniqueIdentifier>{702b7cbb-3713-433e-a863-61411d6839ed}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="06. GameObject - UI\01. Core\03. Body\00. LeftSide">
+      <UniqueIdentifier>{640a640a-4be0-458f-b99e-2ae7ca9341c5}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="06. GameObject - UI\01. Core\03. Body\01. RightSide">
+      <UniqueIdentifier>{d724e533-4113-440c-aee4-c93a9c48553f}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="06. GameObject - UI\01. Core\03. Body\02. Selector">
+      <UniqueIdentifier>{35ebba2f-4460-47d8-9794-0ecf060c5605}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="06. GameObject - UI\01. Core\03. Body\03. Helper">
+      <UniqueIdentifier>{bbb0ad70-8998-402e-a996-26a8dcd62057}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="06. GameObject - UI\02. Dialogue\02. ActorMessage\Contents">
+      <UniqueIdentifier>{e558d597-ccbc-4f90-a72b-f342b0758eb6}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="06. GameObject - UI\02. Dialogue\02. ActorMessage\Frame">
+      <UniqueIdentifier>{893a17b8-b71e-4abe-87bf-0ee617cb500a}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="06. GameObject - UI\02. Dialogue\03. OptionMessage\Contents">
+      <UniqueIdentifier>{2e8a86fd-dce1-498c-91d3-328e225560a7}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="06. GameObject - UI\02. Dialogue\03. OptionMessage\Frame">
+      <UniqueIdentifier>{a364d7ed-d5dc-418b-934e-9b1b14d678b4}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="06. GameObject - UI\01. Core\03. Body\00. LeftSide\ScrollList">
+      <UniqueIdentifier>{79fcebc7-fe5c-4927-90d4-d64fd7c6a2b9}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="06. GameObject - UI\01. Core\03. Body\01. RightSide\Detail">
+      <UniqueIdentifier>{1e0b4228-daee-4c95-92dd-ff89c38e4c4d}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="06. GameObject - UI\01. Core\03. Body\01. RightSide\Status">
+      <UniqueIdentifier>{a49df3e2-0530-442c-b097-56223971d092}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="06. GameObject - UI\01. Core\03. Body\03. Helper\Contents">
+      <UniqueIdentifier>{efc55e91-71b6-4f4a-84c8-35278c3a96ba}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="06. GameObject - UI\01. Core\03. Body\03. Helper\Frame">
+      <UniqueIdentifier>{53f5365a-e559-45fb-a6f9-ddd542bb94e6}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="03. GameObject - Camera\Camera_Debug">
+      <UniqueIdentifier>{15f7c476-6ffc-4855-bf39-015fcb0955ef}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="03. GameObject - Camera\Camera_Object">
+      <UniqueIdentifier>{80b9b016-5a6c-421e-82fb-a6edd6c55c76}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="02. GameObject - Model\01. Enemy - Seed\02.Humanoid Dragoon">
+      <UniqueIdentifier>{7a338f3e-d396-46d3-bacc-9b9ef99d675b}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="97. ShaderFiles">
+      <UniqueIdentifier>{3b7e0056-7b27-4617-a503-192c5d0ae6ee}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="06. GameObject - UI\00. HUD\06. PodCoolTime">
+      <UniqueIdentifier>{0fee137f-4cd5-4ecd-bd94-34f98135ef73}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="04. GameObject - Effect\Subclasses">
+      <UniqueIdentifier>{9b2c9da0-ea4a-4401-ae93-2bba7d7823ea}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="04. GameObject - Effect\Subclasses\EffectBullet">
+      <UniqueIdentifier>{fa09913c-a139-4b60-9ddf-8dfc123f1043}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="08. Factory">
+      <UniqueIdentifier>{352fc06a-fccf-4da7-8710-d43af1e9b5cc}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="08. Factory\EffectFactory">
+      <UniqueIdentifier>{52aab389-d613-4d16-b7f0-a9736f55b678}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="02. GameObject - Model\05. TreasureBox">
+      <UniqueIdentifier>{449c8d1d-614c-4b8c-a3b0-4ab102e4b20a}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="06. GameObject - UI\02. Dialogue\04. EngageMessage">
+      <UniqueIdentifier>{eb40848f-7d4d-4cfd-b8a5-276a4c7fe262}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="95. LoadDatFiles">
+      <UniqueIdentifier>{c00b1b6e-e4ce-4eb1-a764-5a2c0030e86f}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="04. GameObject - Effect\AfterImage">
+      <UniqueIdentifier>{c04af721-63a9-4463-b0cd-c7d7a809ca8b}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="97. ShaderFiles">
+      <UniqueIdentifier>{3b7e0056-7b27-4617-a503-192c5d0ae6ee}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="02. GameObject - Model\02 .Enemy - Boss\00. Beauvoir\BeauvoirBullet">
+      <UniqueIdentifier>{33760d88-ffb6-4f75-a156-8bf037b4611a}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="02. GameObject - Model\02 .Enemy - Boss\00. Beauvoir\BeauvoirFireMissile">
+      <UniqueIdentifier>{8c5caaa7-6214-4a1e-a669-1557b01b01e2}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="02. GameObject - Model\02 .Enemy - Boss\00. Beauvoir\BeauvoirNaviBullet">
+      <UniqueIdentifier>{7685fc23-d9e3-4199-b3b4-ffbff49d0dec}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="02. GameObject - Model\02 .Enemy - Boss\00. Beauvoir\BeauvoirRisingBullet">
+      <UniqueIdentifier>{fd6e598e-3f6c-443f-8870-8f3855abfc0b}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="02. GameObject - Model\01. Enemy - Seed\02.CrossAndroid">
+      <UniqueIdentifier>{5626f5f9-a89d-4109-a5f8-baa9322a456c}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="02. GameObject - Model\02 .Enemy - Boss\00. Beauvoir\BeauvoirHair">
+      <UniqueIdentifier>{93cad898-379d-4b2c-9054-6a458a85b6fb}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="02. GameObject - Model\06. Sky">
+      <UniqueIdentifier>{c2231948-e391-49f8-9733-b08d3028ce82}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="02. GameObject - Model\01. Enemy - Seed\00. Humanoid Small\00.Normal_Attack">
+      <UniqueIdentifier>{7d416573-6fd2-49a9-be9c-8ac8313159ff}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="02. GameObject - Model\01. Enemy - Seed\03.Humanoid_Clown">
+      <UniqueIdentifier>{e492f2bc-9e0a-402e-ba62-cf418ca143c2}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="06. GameObject - UI\01. Core\04. CinematicScreen">
+      <UniqueIdentifier>{1d0fe4f0-9c22-45f0-9156-8ba35df3fe4b}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="98. Default">
+      <UniqueIdentifier>{6d5f23a5-bd34-42b8-959e-54a95daf9b00}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="98. Default\00. Using">
+      <UniqueIdentifier>{28d8f99b-5fb7-4ca2-a95e-a08f8f0baed7}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="98. Default\01. DontUsed">
+      <UniqueIdentifier>{543209e9-3b86-4995-91e4-0474007a44be}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="98. Default\02. Resource">
+      <UniqueIdentifier>{0ba30e31-b296-45d4-9a94-350b5297f4c6}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="01. Level\05. Amusement Park">
+      <UniqueIdentifier>{0e9fe057-a4c6-4a82-9917-7bfbcc07b17c}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="01. Level\06. Opera BackStage">
+      <UniqueIdentifier>{28c5d3c4-08e1-48c7-99e9-9773a6aa1188}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="01. Level\03. Robot Military">
+      <UniqueIdentifier>{99988889-f0a4-4e98-937c-a478660fdcc3}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="06. GameObject - UI\03. Atlas_Manager">
+      <UniqueIdentifier>{5ac783d4-d598-4348-9d2a-23d8610d7ed7}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="06. GameObject - UI\01. Core\03. Body\00. LeftSide\ScrollList\ListLine">
+      <UniqueIdentifier>{848f145c-422f-4722-a771-cd14d7523d9d}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="06. GameObject - UI\01. Core\03. Body\00. LeftSide\ScrollList\ScrollBar">
+      <UniqueIdentifier>{d9d08540-5725-45da-82fd-1f1e15db4014}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="04. GameObject - Effect\Trail">
+      <UniqueIdentifier>{d01b8fe5-0cc2-4749-99fa-2dc8e778b8b8}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="10. Components">
+      <UniqueIdentifier>{babbbf79-e4af-49ba-953a-8ce582218328}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="10. Components\Inventory">
+      <UniqueIdentifier>{4a89deb8-9ee1-42e6-b447-76b81af09e38}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="09. EventCollider">
+      <UniqueIdentifier>{f81b8fdf-dee0-4888-8518-437dd340bfe8}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="02. GameObject - Model\02 .Enemy - Boss\02. Zhuangzi">
+      <UniqueIdentifier>{fcb8c97b-6d8a-42ec-b8ee-8553333c3bd8}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="02. GameObject - Model\02 .Enemy - Boss\02. Zhuangzi\WholeRange">
+      <UniqueIdentifier>{7b37d077-b602-456a-9316-0a886fd87422}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="02. GameObject - Model\02 .Enemy - Boss\02. Zhuangzi\ZhuangziWeaponTrail">
+      <UniqueIdentifier>{eb45f776-46b4-4d1d-9f38-9dab3a343186}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="02. GameObject - Model\02 .Enemy - Boss\02. Zhuangzi\ZhuangziBridge">
+      <UniqueIdentifier>{38e0593d-ade5-4093-943a-af5056b1dea4}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="01. Level\04. ZhuangziStage">
+      <UniqueIdentifier>{5190ba5b-9867-4f83-8f08-f3b714e5b9cd}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="06. GameObject - UI\00. HUD\07. DirectionIndicator">
+      <UniqueIdentifier>{7fcf4fea-7cda-46ee-a420-6402c7c02160}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="06. GameObject - UI\00. HUD\08. StageObjective">
+      <UniqueIdentifier>{58d4db40-edb0-4203-82c6-77f9d4c8d8c6}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="02. GameObject - Model\08. DropItem">
+      <UniqueIdentifier>{426d68e1-79b1-43af-9767-4f674ec8803c}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="02. GameObject - Model\02 .Enemy - Boss\02. Zhuangzi\ZhuangziDoor">
+      <UniqueIdentifier>{af8fed53-aab7-41be-8f61-d2df8901701e}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="02. GameObject - Model\03. BackGround\01. Curtain">
+      <UniqueIdentifier>{4daf5950-4ed7-4315-acee-f4e29029a40a}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="03. GameObject - Camera\CutScene Camera">
+      <UniqueIdentifier>{09d36a53-07cc-451b-bbb1-d8a6d53f8c4e}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="02. GameObject - Model\02 .Enemy - Boss\03. Engels">
+      <UniqueIdentifier>{127a7ea5-410e-45ca-887a-47f480fa0e52}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="01. Level\07. EngelsStage">
+      <UniqueIdentifier>{23429199-5a24-4100-af2b-39bae0be1d36}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="02. GameObject - Model\07. Coaster">
+      <UniqueIdentifier>{0c27649c-a0f8-4b4d-aaea-2a8e6d40a61a}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="04. GameObject - Effect\AnimationTrail">
+      <UniqueIdentifier>{4d9e9fdd-e2b0-4f9a-bbe2-6ef46c11f1d3}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="93. Camera Manager">
+      <UniqueIdentifier>{756c4ed8-0f97-49e1-8e0b-dc65c04a5978}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="02. GameObject - Model\09. Vending Machine">
+      <UniqueIdentifier>{d9e370c1-2934-460e-88d4-8e17c24beb67}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="02. GameObject - Model\02 .Enemy - Boss\03. Engels\EngelsFireMissile">
+      <UniqueIdentifier>{53fb660a-64ad-4f11-b95a-7496f17ac472}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="02. GameObject - Model\02 .Enemy - Boss\03. Engels\EngelsHitPart">
+      <UniqueIdentifier>{97eb5205-5f73-4f7e-8572-4c477a2cfb35}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="02. GameObject - Model\04. 9S\00.Iron9S">
+      <UniqueIdentifier>{d903c9b8-8716-4aeb-9bd5-3ee6c76dd225}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="03. GameObject - Camera\Camera_IronFist">
+      <UniqueIdentifier>{063c0b89-bf6c-4af3-914d-e30bb0aca9d2}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="02. GameObject - Model\03. BackGround\02.MiniGameBuilding">
+      <UniqueIdentifier>{28b1377f-45ed-4b29-b53c-809a33201cf1}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="02. GameObject - Model\01. Enemy - Seed\04.Iron_Humanoid_Small">
+      <UniqueIdentifier>{71322321-0340-418a-bdb7-d039846df756}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="02. GameObject - Model\04. 9S\00.Iron9S\IronGauntlet">
+      <UniqueIdentifier>{b07ddfd8-5843-4390-b51f-d4974b8cb3ad}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="06. GameObject - UI\01. Core\03. Body\01. RightSide\WeaponSlot">
+      <UniqueIdentifier>{02f99243-314f-40ea-b26f-0dc3bdcf107d}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="06. GameObject - UI\01. Core\03. Body\01. RightSide\ProgramStack">
+      <UniqueIdentifier>{05e5347f-0419-4df3-82ef-23046121359b}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="06. GameObject - UI\01. Core\03. Body\02. Selector\SelectList">
+      <UniqueIdentifier>{baa579fc-2f52-4a27-8d57-fd06d05a765e}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="06. GameObject - UI\01. Core\03. Body\02. Selector\SelectList\SelectLine">
+      <UniqueIdentifier>{051bfb28-30d3-4927-8566-e96654895987}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="02. GameObject - Model\07. Coaster">
+      <UniqueIdentifier>{0c27649c-a0f8-4b4d-aaea-2a8e6d40a61a}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="02. GameObject - Model\01. Enemy - Seed\04.Clown Fly">
+      <UniqueIdentifier>{7bb38b85-a0a5-40b7-b046-344de27b7057}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="06. GameObject - UI\02. Dialogue\05. HackingMessage">
+      <UniqueIdentifier>{e56221f7-2101-4903-8fcc-2ec76d45f448}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="02. GameObject - Model\10. NierDeadBody">
+      <UniqueIdentifier>{da1f9101-87bc-4911-a849-24c86c10653f}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="05. GameObject - Projection\00. Background\01. LogoTitle">
+      <UniqueIdentifier>{fdd8ca18-a06f-4b82-897c-66a8064e87e8}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="05. GameObject - Projection\00. Background\02. Logo Gear">
+      <UniqueIdentifier>{264a8c7b-3fe4-4f28-b855-1816dc7ebb76}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="05. GameObject - Projection\00. Background\03. Logo AnyKey">
+      <UniqueIdentifier>{ada99bf9-2c43-4f04-a866-e84b07625bed}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="05. GameObject - Projection\00. Background\04. Logo CopyRights">
+      <UniqueIdentifier>{c1c8e734-1784-4c79-bcb6-99679c85db5b}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="05. GameObject - Projection\00. Background\05. Loading Screen">
+      <UniqueIdentifier>{b84069d6-6d7f-4e6f-a565-9ffb5ecb0ee4}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="05. GameObject - Projection\00. Background\06. Loading Percent">
+      <UniqueIdentifier>{12563c11-e955-4d09-b8d1-8a582855a731}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="05. GameObject - Projection\00. Background\07. Loading Emil">
+      <UniqueIdentifier>{e63cfe62-a929-4e63-a321-503b49caa614}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="02. GameObject - Model\02 .Enemy - Boss\02. Zhuangzi\ZhuangziFireMissile">
+      <UniqueIdentifier>{15a247fc-9d09-4700-b000-75e25c067a91}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="06. GameObject - UI\00. HUD\01. HpBar\MiniGame">
+      <UniqueIdentifier>{430f481e-4c09-4b51-b82f-2059343ffbb1}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="06. GameObject - UI\02. Dialogue\06. HackingSuccessMessage">
+      <UniqueIdentifier>{765d410b-cb15-4daf-a408-0a6a5f8f3920}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="02. GameObject - Model\02 .Enemy - Boss\00. Beauvoir\BeauvoirSkirt">
+      <UniqueIdentifier>{11401b2c-ff4c-4edc-8831-627df7e5aab5}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="11. Decal">
+      <UniqueIdentifier>{01a2e5ea-acd1-418f-9f85-fe38ef22eac4}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="06. GameObject - UI\00. HUD\98. MiniGameScreen">
+      <UniqueIdentifier>{16ce07ee-acbd-455e-942a-540b5cccedf1}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="09. EventCollider\09. ObjectPool">
+      <UniqueIdentifier>{0c64d09e-5508-476f-9ace-2879b23381d5}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="94. MiniGame">
+      <UniqueIdentifier>{e0bb659f-0170-43b4-8cd9-9b6fb3bf9b21}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="94. MiniGame\00. MiniGame">
+      <UniqueIdentifier>{f3066952-31da-4413-896d-eeda8d265c13}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="94. MiniGame\00. MiniGame\MiniGame_IronFist">
+      <UniqueIdentifier>{3d450456-88f9-4401-b57e-2611e5ab6bdd}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="94. MiniGame\99. Manager">
+      <UniqueIdentifier>{6be9e8ce-4514-4d84-a45d-5099f0a91117}</UniqueIdentifier>
+    </Filter>
+  </ItemGroup>
+  <ItemGroup>
+    <ClInclude Include="Resource.h">
+      <Filter>98. Default\02. Resource</Filter>
+    </ClInclude>
+    <ClInclude Include="stdafx.h">
+      <Filter>98. Default\00. Using</Filter>
+    </ClInclude>
+    <ClInclude Include="targetver.h">
+      <Filter>98. Default\01. DontUsed</Filter>
+    </ClInclude>
+    <ClInclude Include="Client.h">
+      <Filter>98. Default\01. DontUsed</Filter>
+    </ClInclude>
+    <ClInclude Include="..\Public\Client_Defines.h">
+      <Filter>99. Defines</Filter>
+    </ClInclude>
+    <ClInclude Include="..\Public\Client_Struct.h">
+      <Filter>99. Defines</Filter>
+    </ClInclude>
+    <ClInclude Include="..\public\MainApplication.h">
+      <Filter>00. MainApplication</Filter>
+    </ClInclude>
+    <ClInclude Include="..\Public\Client_ComponentKey.h">
+      <Filter>99. Defines</Filter>
+    </ClInclude>
+    <ClInclude Include="..\Public\Client_GameObjectKey.h">
+      <Filter>99. Defines</Filter>
+    </ClInclude>
+    <ClInclude Include="..\Public\Client_ShaderPathKey.h">
+      <Filter>99. Defines</Filter>
+    </ClInclude>
+    <ClInclude Include="..\Public\SoundMgr.h">
+      <Filter>96. Sound Manager</Filter>
+    </ClInclude>
+    <ClInclude Include="..\public\Loader.h">
+      <Filter>01. Level\00. Loading\Loader</Filter>
+    </ClInclude>
+    <ClInclude Include="..\public\Level_Stage1.h">
+      <Filter>01. Level\02. Stage1</Filter>
+    </ClInclude>
+    <ClInclude Include="..\public\Level_Logo.h">
+      <Filter>01. Level\01. Logo</Filter>
+    </ClInclude>
+    <ClInclude Include="..\public\LoadDatFiles.h">
+      <Filter>95. LoadDatFiles</Filter>
+    </ClInclude>
+    <ClInclude Include="..\public\Building.h">
+      <Filter>02. GameObject - Model\03. BackGround\00. Building</Filter>
+    </ClInclude>
+    <ClInclude Include="..\Public\Katana.h">
+      <Filter>02. GameObject - Model\00. 2B\00. Katana</Filter>
+    </ClInclude>
+    <ClInclude Include="..\public\MainCamera.h">
+      <Filter>03. GameObject - Camera\Camera_Main</Filter>
+    </ClInclude>
+    <ClInclude Include="..\public\Cam_Object.h">
+      <Filter>03. GameObject - Camera\Camera_Object</Filter>
+    </ClInclude>
+    <ClInclude Include="..\public\Humanoid_Small.h">
+      <Filter>02. GameObject - Model\01. Enemy - Seed\00. Humanoid Small</Filter>
+    </ClInclude>
+    <ClInclude Include="..\public\LogoScreen.h">
+      <Filter>05. GameObject - Projection\00. Background\00. LogoScreen</Filter>
+    </ClInclude>
+    <ClInclude Include="..\public\ProjectionBase.h">
+      <Filter>05. GameObject - Projection\00. Background\99. Projection Base</Filter>
+    </ClInclude>
+    <ClInclude Include="..\public\MinigameManager.h">
+      <Filter>94. MiniGame\99. Manager</Filter>
+    </ClInclude>
+    <ClInclude Include="..\public\MiniGame.h">
+      <Filter>94. MiniGame\00. MiniGame</Filter>
+    </ClInclude>
+    <ClInclude Include="..\public\Beauvoir.h">
+      <Filter>02. GameObject - Model\02 .Enemy - Boss\00. Beauvoir</Filter>
+    </ClInclude>
+    <ClInclude Include="..\Public\Player.h">
+      <Filter>02. GameObject - Model\00. 2B</Filter>
+    </ClInclude>
+    <ClInclude Include="..\public\LongKatana.h">
+      <Filter>02. GameObject - Model\00. 2B\01.LongKatana</Filter>
+    </ClInclude>
+    <ClInclude Include="..\Public\UI.h">
+      <Filter>06. GameObject - UI</Filter>
+    </ClInclude>
+    <ClInclude Include="..\Public\UI_HUD_Hpbar_Monster_Contents.h">
+      <Filter>06. GameObject - UI\00. HUD\01. HpBar\Monster\Contents</Filter>
+    </ClInclude>
+    <ClInclude Include="..\Public\UI_HUD_Hpbar_Monster_Frame.h">
+      <Filter>06. GameObject - UI\00. HUD\01. HpBar\Monster\Frame</Filter>
+    </ClInclude>
+    <ClInclude Include="..\Public\UI_HUD_Hpbar_Player_Contents.h">
+      <Filter>06. GameObject - UI\00. HUD\01. HpBar\Player\Contents</Filter>
+    </ClInclude>
+    <ClInclude Include="..\public\UI_Core_Background.h">
+      <Filter>06. GameObject - UI\01. Core\00. Background</Filter>
+    </ClInclude>
+    <ClInclude Include="..\public\Pod.h">
+      <Filter>02. GameObject - Model\00. 2B\04.POD</Filter>
+    </ClInclude>
+    <ClInclude Include="..\Public\UI_Core_Cursor.h">
+      <Filter>06. GameObject - UI\01. Core\01. Cursor</Filter>
+    </ClInclude>
+    <ClInclude Include="..\Public\PostProcessor.h">
+      <Filter>07. PostProcesser</Filter>
+    </ClInclude>
+    <ClInclude Include="..\Public\Atlas_Manager.h">
+      <Filter>06. GameObject - UI\03. Atlas_Manager</Filter>
+    </ClInclude>
+    <ClInclude Include="..\Public\UI_HUD_Damage.h">
+      <Filter>06. GameObject - UI\00. HUD\04. Damage</Filter>
+    </ClInclude>
+    <ClInclude Include="..\public\PodBullet.h">
+      <Filter>02. GameObject - Model\00. 2B\04.POD\00.PodBullet</Filter>
+    </ClInclude>
+    <ClInclude Include="..\public\Android_9S.h">
+      <Filter>02. GameObject - Model\04. 9S</Filter>
+    </ClInclude>
+    <ClInclude Include="..\public\Spear.h">
+      <Filter>02. GameObject - Model\00. 2B\02.Spear</Filter>
+    </ClInclude>
+    <ClInclude Include="..\public\Gauntlet.h">
+      <Filter>02. GameObject - Model\00. 2B\03.Gauntlet</Filter>
+    </ClInclude>
+    <ClInclude Include="..\public\Pod9S.h">
+      <Filter>02. GameObject - Model\00. 2B\04.POD\01.Pod9S</Filter>
+    </ClInclude>
+    <ClInclude Include="..\public\Humanoid_Bullet.h">
+      <Filter>02. GameObject - Model\01. Enemy - Seed\01. Humanoid Big\Humanoid Bullet</Filter>
+    </ClInclude>
+    <ClInclude Include="..\public\Tank.h">
+      <Filter>02. GameObject - Model\02 .Enemy - Boss\01. Tank</Filter>
+    </ClInclude>
+    <ClInclude Include="..\Public\UI_HUD_Hpbar_Player_Frame.h">
+      <Filter>06. GameObject - UI\00. HUD\01. HpBar\Player\Frame</Filter>
+    </ClInclude>
+    <ClInclude Include="..\Public\UI_HUD_Target.h">
+      <Filter>06. GameObject - UI\00. HUD\02. Target</Filter>
+    </ClInclude>
+    <ClInclude Include="..\public\Camera_Debug.h">
+      <Filter>03. GameObject - Camera\Camera_Debug</Filter>
+    </ClInclude>
+    <ClInclude Include="..\public\Humanoid_Dragoon.h">
+      <Filter>02. GameObject - Model\01. Enemy - Seed\02.Humanoid Dragoon</Filter>
+    </ClInclude>
+    <ClInclude Include="..\Public\UI_HUD_PodCoolTime.h">
+      <Filter>06. GameObject - UI\00. HUD\06. PodCoolTime</Filter>
+    </ClInclude>
+    <ClInclude Include="..\Public\EffectFactory.h">
+      <Filter>08. Factory\EffectFactory</Filter>
+    </ClInclude>
+    <ClInclude Include="..\Public\MeshEffect.h">
+      <Filter>04. GameObject - Effect\MeshEffect</Filter>
+    </ClInclude>
+    <ClInclude Include="..\Public\EffectBullet.h">
+      <Filter>04. GameObject - Effect\Subclasses\EffectBullet</Filter>
+    </ClInclude>
+    <ClInclude Include="..\Public\TreasureBox.h">
+      <Filter>02. GameObject - Model\05. TreasureBox</Filter>
+    </ClInclude>
+    <ClInclude Include="..\Public\UI_Dialogue_SystemMessage.h">
+      <Filter>06. GameObject - UI\02. Dialogue\00. SystemMessage</Filter>
+    </ClInclude>
+    <ClInclude Include="..\Public\UI_Dialogue_HighlightMessage.h">
+      <Filter>06. GameObject - UI\02. Dialogue\01. HighlightMessage</Filter>
+    </ClInclude>
+    <ClInclude Include="..\Public\UI_HUD_Pointer.h">
+      <Filter>06. GameObject - UI\00. HUD\03. Pointer</Filter>
+    </ClInclude>
+    <ClInclude Include="..\Public\UI_Dialogue_EngageMessage.h">
+      <Filter>06. GameObject - UI\02. Dialogue\04. EngageMessage</Filter>
+    </ClInclude>
+    <ClInclude Include="..\public\AfterImage.h">
+      <Filter>04. GameObject - Effect\AfterImage</Filter>
+    </ClInclude>
+    <ClInclude Include="..\public\Beauvoir_Bullet.h">
+      <Filter>02. GameObject - Model\02 .Enemy - Boss\00. Beauvoir\BeauvoirBullet</Filter>
+    </ClInclude>
+    <ClInclude Include="..\public\Beauvoir_FireMissile.h">
+      <Filter>02. GameObject - Model\02 .Enemy - Boss\00. Beauvoir\BeauvoirFireMissile</Filter>
+    </ClInclude>
+    <ClInclude Include="..\public\Beauvoir_NaviBullet.h">
+      <Filter>02. GameObject - Model\02 .Enemy - Boss\00. Beauvoir\BeauvoirNaviBullet</Filter>
+    </ClInclude>
+    <ClInclude Include="..\public\Beauvoir_RisingBullet.h">
+      <Filter>02. GameObject - Model\02 .Enemy - Boss\00. Beauvoir\BeauvoirRisingBullet</Filter>
+    </ClInclude>
+    <ClInclude Include="..\public\Level_OperaBackStage.h">
+      <Filter>01. Level\06. Opera BackStage</Filter>
+    </ClInclude>
+    <ClInclude Include="..\public\CrossAndroid.h">
+      <Filter>02. GameObject - Model\01. Enemy - Seed\02.CrossAndroid</Filter>
+    </ClInclude>
+    <ClInclude Include="..\public\Beauvoir_Skirt.h">
+      <Filter>02. GameObject - Model\02 .Enemy - Boss\00. Beauvoir\BeauvoirSkirt</Filter>
+    </ClInclude>
+    <ClInclude Include="..\public\Beauvoir_Hair.h">
+      <Filter>02. GameObject - Model\02 .Enemy - Boss\00. Beauvoir\BeauvoirHair</Filter>
+    </ClInclude>
+    <ClInclude Include="..\Public\Sky.h">
+      <Filter>02. GameObject - Model\06. Sky</Filter>
+    </ClInclude>
+    <ClInclude Include="..\Public\Normal_Attack.h">
+      <Filter>02. GameObject - Model\01. Enemy - Seed\00. Humanoid Small\00.Normal_Attack</Filter>
+    </ClInclude>
+    <ClInclude Include="..\public\Humanoid_Clown.h">
+      <Filter>02. GameObject - Model\01. Enemy - Seed\03.Humanoid_Clown</Filter>
+    </ClInclude>
+    <ClInclude Include="..\Public\UI_Core_CinematicScreen.h">
+      <Filter>06. GameObject - UI\01. Core\04. CinematicScreen</Filter>
+    </ClInclude>
+    <ClInclude Include="..\Public\UI_Core_HeadButton.h">
+      <Filter>06. GameObject - UI\01. Core\02. Head\01. Button</Filter>
+    </ClInclude>
+    <ClInclude Include="..\public\Level_Loading.h">
+      <Filter>01. Level\00. Loading</Filter>
+    </ClInclude>
+    <ClInclude Include="..\public\Level_AmusementPark.h">
+      <Filter>01. Level\05. Amusement Park</Filter>
+    </ClInclude>
+    <ClInclude Include="..\public\Level_RobotMilitary.h">
+      <Filter>01. Level\03. Robot Military</Filter>
+    </ClInclude>
+    <ClInclude Include="..\public\Zhuangzi.h">
+      <Filter>02. GameObject - Model\02 .Enemy - Boss\02. Zhuangzi</Filter>
+    </ClInclude>
+    <ClInclude Include="..\public\ZhuangziFireMissile.h">
+      <Filter>02. GameObject - Model\02 .Enemy - Boss\02. Zhuangzi\ZhuangziFireMissile</Filter>
+    </ClInclude>
+    <ClInclude Include="..\public\WholeRange.h">
+      <Filter>02. GameObject - Model\02 .Enemy - Boss\02. Zhuangzi\WholeRange</Filter>
+    </ClInclude>
+    <ClInclude Include="..\public\ZhuangziWeaponTrail.h">
+      <Filter>02. GameObject - Model\02 .Enemy - Boss\02. Zhuangzi\ZhuangziWeaponTrail</Filter>
+    </ClInclude>
+    <ClInclude Include="..\public\Engels.h">
+      <Filter>02. GameObject - Model\02 .Enemy - Boss\03. Engels</Filter>
+    </ClInclude>
+    <ClInclude Include="..\public\ZhuangziBridge.h">
+      <Filter>02. GameObject - Model\02 .Enemy - Boss\02. Zhuangzi\ZhuangziBridge</Filter>
+    </ClInclude>
+    <ClInclude Include="..\public\Level_ZhuangziStage.h">
+      <Filter>01. Level\04. ZhuangziStage</Filter>
+    </ClInclude>
+    <ClInclude Include="..\Public\Event_Collider.h">
+      <Filter>09. EventCollider</Filter>
+    </ClInclude>
+    <ClInclude Include="..\public\GameObjectModel.h">
+      <Filter>02. GameObject - Model\99. ModelBase</Filter>
+    </ClInclude>
+    <ClInclude Include="..\public\Trail.h">
+      <Filter>04. GameObject - Effect\Trail</Filter>
+    </ClInclude>
+    <ClInclude Include="..\public\ObjectPool.h">
+      <Filter>09. EventCollider\09. ObjectPool</Filter>
+    </ClInclude>
+    <ClInclude Include="..\public\UI_Core_Controller.h">
+      <Filter>06. GameObject - UI\01. Core</Filter>
+    </ClInclude>
+    <ClInclude Include="..\Public\UI_Core_DecoLine.h">
+      <Filter>06. GameObject - UI\01. Core\02. Head\02. DecoLine</Filter>
+    </ClInclude>
+    <ClInclude Include="..\Public\UI_Core_Status.h">
+      <Filter>06. GameObject - UI\01. Core\03. Body\01. RightSide\Status</Filter>
+    </ClInclude>
+    <ClInclude Include="..\Public\UI_Core_Title.h">
+      <Filter>06. GameObject - UI\01. Core\02. Head\00. Title</Filter>
+    </ClInclude>
+    <ClInclude Include="..\Public\UI_Core_ScrollList.h">
+      <Filter>06. GameObject - UI\01. Core\03. Body\00. LeftSide\ScrollList</Filter>
+    </ClInclude>
+    <ClInclude Include="..\Public\UI_Core_ListLine.h">
+      <Filter>06. GameObject - UI\01. Core\03. Body\00. LeftSide\ScrollList\ListLine</Filter>
+    </ClInclude>
+    <ClInclude Include="..\public\ZhuangziDoor.h">
+      <Filter>02. GameObject - Model\02 .Enemy - Boss\02. Zhuangzi\ZhuangziDoor</Filter>
+    </ClInclude>
+    <ClInclude Include="..\public\BeauvoirCurtain.h">
+      <Filter>02. GameObject - Model\03. BackGround\01. Curtain</Filter>
+    </ClInclude>
+    <ClInclude Include="..\public\CameraMgr.h">
+      <Filter>93. Camera Manager</Filter>
+    </ClInclude>
+    <ClInclude Include="..\public\Camera_Cutscene.h">
+      <Filter>03. GameObject - Camera\CutScene Camera</Filter>
+    </ClInclude>
+    <ClInclude Include="..\public\Inventory.h">
+      <Filter>10. Components\Inventory</Filter>
+    </ClInclude>
+    <ClInclude Include="..\Public\Client_ItemCode.h">
+      <Filter>99. Defines</Filter>
+    </ClInclude>
+    <ClInclude Include="..\Public\UI_HUD_DirectionIndicator.h">
+      <Filter>06. GameObject - UI\00. HUD\07. DirectionIndicator</Filter>
+    </ClInclude>
+    <ClInclude Include="..\Public\UI_HUD_StageObjective.h">
+      <Filter>06. GameObject - UI\00. HUD\08. StageObjective</Filter>
+    </ClInclude>
+    <ClInclude Include="..\Public\DropItem.h">
+      <Filter>02. GameObject - Model\08. DropItem</Filter>
+    </ClInclude>
+    <ClInclude Include="..\Public\UI_HUD_Controller.h">
+      <Filter>06. GameObject - UI\00. HUD</Filter>
+    </ClInclude>
+    <ClInclude Include="..\Public\Coaster.h">
+      <Filter>02. GameObject - Model\07. Coaster</Filter>
+    </ClInclude>
+    <ClInclude Include="..\public\Level_EngelsStage.h">
+      <Filter>01. Level\07. EngelsStage</Filter>
+    </ClInclude>
+    <ClInclude Include="..\public\EngelsFireMissile.h">
+      <Filter>02. GameObject - Model\02 .Enemy - Boss\03. Engels\EngelsFireMissile</Filter>
+    </ClInclude>
+    <ClInclude Include="..\public\VendingMachine.h">
+      <Filter>02. GameObject - Model\09. Vending Machine</Filter>
+    </ClInclude>
+    <ClInclude Include="..\public\EngelsHitPart.h">
+      <Filter>02. GameObject - Model\02 .Enemy - Boss\03. Engels\EngelsHitPart</Filter>
+    </ClInclude>
+    <ClInclude Include="..\Public\Clown_Fly.h">
+      <Filter>02. GameObject - Model\01. Enemy - Seed\04.Clown Fly</Filter>
+    </ClInclude>
+    <ClInclude Include="..\Public\UI_Core_Detail.h">
+      <Filter>06. GameObject - UI\01. Core\03. Body\01. RightSide\Detail</Filter>
+    </ClInclude>
+    <ClInclude Include="..\public\MiniGame_IronFist.h">
+      <Filter>94. MiniGame\00. MiniGame\MiniGame_IronFist</Filter>
+    </ClInclude>
+    <ClInclude Include="..\public\Iron_Android9S.h">
+      <Filter>02. GameObject - Model\04. 9S\00.Iron9S</Filter>
+    </ClInclude>
+    <ClInclude Include="..\public\Camera_IronFist.h">
+      <Filter>03. GameObject - Camera\Camera_IronFist</Filter>
+    </ClInclude>
+    <ClInclude Include="..\public\MiniGameBuilding.h">
+      <Filter>02. GameObject - Model\03. BackGround\02.MiniGameBuilding</Filter>
+    </ClInclude>
+    <ClInclude Include="..\public\Humanoid_Big.h">
+      <Filter>02. GameObject - Model\01. Enemy - Seed\01. Humanoid Big</Filter>
+    </ClInclude>
+    <ClInclude Include="..\public\Iron_Humanoid_Small.h">
+      <Filter>02. GameObject - Model\01. Enemy - Seed\04.Iron_Humanoid_Small</Filter>
+    </ClInclude>
+    <ClInclude Include="..\public\IronGauntlet.h">
+      <Filter>02. GameObject - Model\04. 9S\00.Iron9S\IronGauntlet</Filter>
+    </ClInclude>
+    <ClInclude Include="..\Public\UI_Core_SelectList.h">
+      <Filter>06. GameObject - UI\01. Core\03. Body\02. Selector\SelectList</Filter>
+    </ClInclude>
+    <ClInclude Include="..\Public\UI_Core_SelectLine.h">
+      <Filter>06. GameObject - UI\01. Core\03. Body\02. Selector\SelectList\SelectLine</Filter>
+    </ClInclude>
+    <ClInclude Include="..\Public\UI_Core_WeaponSlot.h">
+      <Filter>06. GameObject - UI\01. Core\03. Body\01. RightSide\WeaponSlot</Filter>
+    </ClInclude>
+    <ClInclude Include="..\public\AnimationTrail.h">
+      <Filter>04. GameObject - Effect\AnimationTrail</Filter>
+    </ClInclude>
+    <ClInclude Include="..\Public\UI_Dialogue_HackingMessage.h">
+      <Filter>06. GameObject - UI\02. Dialogue\05. HackingMessage</Filter>
+    </ClInclude>
+    <ClInclude Include="..\public\LogoTitle.h">
+      <Filter>05. GameObject - Projection\00. Background\01. LogoTitle</Filter>
+    </ClInclude>
+    <ClInclude Include="..\public\LogoGear.h">
+      <Filter>05. GameObject - Projection\00. Background\02. Logo Gear</Filter>
+    </ClInclude>
+    <ClInclude Include="..\public\LogoAnyKey.h">
+      <Filter>05. GameObject - Projection\00. Background\03. Logo AnyKey</Filter>
+    </ClInclude>
+    <ClInclude Include="..\public\LogoCopyRight.h">
+      <Filter>05. GameObject - Projection\00. Background\04. Logo CopyRights</Filter>
+    </ClInclude>
+    <ClInclude Include="..\public\LoadingScreen.h">
+      <Filter>05. GameObject - Projection\00. Background\05. Loading Screen</Filter>
+    </ClInclude>
+    <ClInclude Include="..\public\LoadingPercent.h">
+      <Filter>05. GameObject - Projection\00. Background\06. Loading Percent</Filter>
+    </ClInclude>
+    <ClInclude Include="..\public\LoadingEmil.h">
+      <Filter>05. GameObject - Projection\00. Background\07. Loading Emil</Filter>
+    </ClInclude>
+    <ClInclude Include="..\Public\UI_Dialogue_HackingSuccessMessage.h">
+      <Filter>06. GameObject - UI\02. Dialogue\06. HackingSuccessMessage</Filter>
+    </ClInclude>
+    <ClInclude Include="..\public\DecalCube.h">
+      <Filter>11. Decal</Filter>
+    </ClInclude>
+    <ClInclude Include="..\Public\UI_HUD_MiniGameScreen.h">
+      <Filter>06. GameObject - UI\00. HUD\98. MiniGameScreen</Filter>
+    </ClInclude>
+    <ClInclude Include="..\Public\UI_HUD_Hpbar_MiniGame.h">
+      <Filter>06. GameObject - UI\00. HUD\01. HpBar\MiniGame</Filter>
+    </ClInclude>
+    <ClInclude Include="..\Public\UI_HUD_QuickSlot.h">
+      <Filter>06. GameObject - UI\00. HUD\05. MiniMap</Filter>
+    </ClInclude>
+  </ItemGroup>
+  <ItemGroup>
+    <ClCompile Include="Client.cpp">
+      <Filter>98. Default\00. Using</Filter>
+    </ClCompile>
+    <ClCompile Include="stdafx.cpp">
+      <Filter>98. Default\01. DontUsed</Filter>
+    </ClCompile>
+    <ClCompile Include="..\private\MainApplication.cpp">
+      <Filter>00. MainApplication</Filter>
+    </ClCompile>
+    <ClCompile Include="..\Private\SoundMgr.cpp">
+      <Filter>96. Sound Manager</Filter>
+    </ClCompile>
+    <ClCompile Include="..\private\Level_Loading.cpp">
+      <Filter>01. Level\00. Loading</Filter>
+    </ClCompile>
+    <ClCompile Include="..\private\Loader.cpp">
+      <Filter>01. Level\00. Loading\Loader</Filter>
+    </ClCompile>
+    <ClCompile Include="..\private\Level_Stage1.cpp">
+      <Filter>01. Level\02. Stage1</Filter>
+    </ClCompile>
+    <ClCompile Include="..\private\Level_Logo.cpp">
+      <Filter>01. Level\01. Logo</Filter>
+    </ClCompile>
+    <ClCompile Include="..\private\LoadDatFiles.cpp">
+      <Filter>95. LoadDatFiles</Filter>
+    </ClCompile>
+    <ClCompile Include="..\private\Building.cpp">
+      <Filter>02. GameObject - Model\03. BackGround\00. Building</Filter>
+    </ClCompile>
+    <ClCompile Include="..\private\MainCamera.cpp">
+      <Filter>03. GameObject - Camera\Camera_Main</Filter>
+    </ClCompile>
+    <ClCompile Include="..\private\Cam_Object.cpp">
+      <Filter>03. GameObject - Camera\Camera_Object</Filter>
+    </ClCompile>
+    <ClCompile Include="..\private\Humanoid_Small.cpp">
+      <Filter>02. GameObject - Model\01. Enemy - Seed\00. Humanoid Small</Filter>
+    </ClCompile>
+    <ClCompile Include="..\private\LogoScreen.cpp">
+      <Filter>05. GameObject - Projection\00. Background\00. LogoScreen</Filter>
+    </ClCompile>
+    <ClCompile Include="..\private\ProjectionBase.cpp">
+      <Filter>05. GameObject - Projection\00. Background\99. Projection Base</Filter>
+    </ClCompile>
+    <ClCompile Include="..\private\MinigameManager.cpp">
+      <Filter>94. MiniGame\99. Manager</Filter>
+    </ClCompile>
+    <ClCompile Include="..\private\MiniGame.cpp">
+      <Filter>94. MiniGame\00. MiniGame</Filter>
+    </ClCompile>
+    <ClCompile Include="..\private\Beauvoir.cpp">
+      <Filter>02. GameObject - Model\02 .Enemy - Boss\00. Beauvoir</Filter>
+    </ClCompile>
+    <ClCompile Include="..\private\LongKatana.cpp">
+      <Filter>02. GameObject - Model\00. 2B\01.LongKatana</Filter>
+    </ClCompile>
+    <ClCompile Include="..\Private\UI_HUD_Hpbar_Player_Contents.cpp">
+      <Filter>06. GameObject - UI\00. HUD\01. HpBar\Player\Contents</Filter>
+    </ClCompile>
+    <ClCompile Include="..\Private\UI_HUD_Hpbar_Monster_Contents.cpp">
+      <Filter>06. GameObject - UI\00. HUD\01. HpBar\Monster\Contents</Filter>
+    </ClCompile>
+    <ClCompile Include="..\Private\UI_HUD_Hpbar_Monster_Frame.cpp">
+      <Filter>06. GameObject - UI\00. HUD\01. HpBar\Monster\Frame</Filter>
+    </ClCompile>
+    <ClCompile Include="..\Private\UI.cpp">
+      <Filter>06. GameObject - UI</Filter>
+    </ClCompile>
+    <ClCompile Include="..\private\Humanoid_Big.cpp">
+      <Filter>02. GameObject - Model\01. Enemy - Seed\01. Humanoid Big</Filter>
+    </ClCompile>
+    <ClCompile Include="..\Private\UI_Core_Cursor.cpp">
+      <Filter>06. GameObject - UI\01. Core\01. Cursor</Filter>
+    </ClCompile>
+    <ClCompile Include="..\Private\PostProcessor.cpp">
+      <Filter>07. PostProcesser</Filter>
+    </ClCompile>
+    <ClCompile Include="..\Private\Katana.cpp">
+      <Filter>02. GameObject - Model\00. 2B\00. Katana</Filter>
+    </ClCompile>
+    <ClCompile Include="..\Private\Katana.cpp">
+      <Filter>02. GameObject - Model\00. 2B\00. Katana</Filter>
+    </ClCompile>
+    <ClCompile Include="..\Private\Atlas_Manager.cpp">
+      <Filter>06. GameObject - UI\03. Atlas_Manager</Filter>
+    </ClCompile>
+    <ClCompile Include="..\Private\UI_HUD_Damage.cpp">
+      <Filter>06. GameObject - UI\00. HUD\04. Damage</Filter>
+    </ClCompile>
+    <ClCompile Include="..\Private\Katana.cpp">
+      <Filter>02. GameObject - Model\00. 2B\00. Katana</Filter>
+    </ClCompile>
+    <ClCompile Include="..\private\PodBullet.cpp">
+      <Filter>02. GameObject - Model\00. 2B\04.POD\00.PodBullet</Filter>
+    </ClCompile>
+    <ClCompile Include="..\private\Pod.cpp">
+      <Filter>02. GameObject - Model\00. 2B\04.POD</Filter>
+    </ClCompile>
+    <ClCompile Include="..\private\Android_9S.cpp">
+      <Filter>02. GameObject - Model\04. 9S</Filter>
+    </ClCompile>
+    <ClCompile Include="..\private\Spear.cpp">
+      <Filter>02. GameObject - Model\00. 2B\02.Spear</Filter>
+    </ClCompile>
+    <ClCompile Include="..\private\Gauntlet.cpp">
+      <Filter>02. GameObject - Model\00. 2B\03.Gauntlet</Filter>
+    </ClCompile>
+    <ClCompile Include="..\private\Pod9S.cpp">
+      <Filter>02. GameObject - Model\00. 2B\04.POD\01.Pod9S</Filter>
+    </ClCompile>
+    <ClCompile Include="..\private\Humanoid_Bullet.cpp">
+      <Filter>02. GameObject - Model\01. Enemy - Seed\01. Humanoid Big\Humanoid Bullet</Filter>
+    </ClCompile>
+    <ClCompile Include="..\private\Tank.cpp">
+      <Filter>02. GameObject - Model\02 .Enemy - Boss\01. Tank</Filter>
+    </ClCompile>
+    <ClCompile Include="..\Private\UI_HUD_Hpbar_Player_Frame.cpp">
+      <Filter>06. GameObject - UI\00. HUD\01. HpBar\Player\Frame</Filter>
+    </ClCompile>
+    <ClCompile Include="..\Private\UI_HUD_Target.cpp">
+      <Filter>06. GameObject - UI\00. HUD\02. Target</Filter>
+    </ClCompile>
+    <ClCompile Include="..\private\UI_Core_Background.cpp">
+      <Filter>06. GameObject - UI\01. Core\00. Background</Filter>
+    </ClCompile>
+    <ClCompile Include="..\private\Camera_Debug.cpp">
+      <Filter>03. GameObject - Camera\Camera_Debug</Filter>
+    </ClCompile>
+    <ClCompile Include="..\private\Humanoid_Dragoon.cpp">
+      <Filter>02. GameObject - Model\01. Enemy - Seed\02.Humanoid Dragoon</Filter>
+    </ClCompile>
+    <ClCompile Include="..\Private\UI_HUD_PodCoolTime.cpp">
+      <Filter>06. GameObject - UI\00. HUD\06. PodCoolTime</Filter>
+    </ClCompile>
+    <ClCompile Include="..\Private\EffectFactory.cpp">
+      <Filter>08. Factory\EffectFactory</Filter>
+    </ClCompile>
+    <ClCompile Include="..\Private\MeshEffect.cpp">
+      <Filter>04. GameObject - Effect\MeshEffect</Filter>
+    </ClCompile>
+    <ClCompile Include="..\Private\EffectBullet.cpp">
+      <Filter>04. GameObject - Effect\Subclasses\EffectBullet</Filter>
+    </ClCompile>
+    <ClCompile Include="..\Private\TreasureBox.cpp">
+      <Filter>02. GameObject - Model\05. TreasureBox</Filter>
+    </ClCompile>
+    <ClCompile Include="..\Private\UI_Dialogue_SystemMessage.cpp">
+      <Filter>06. GameObject - UI\02. Dialogue\00. SystemMessage</Filter>
+    </ClCompile>
+    <ClCompile Include="..\Private\UI_Dialogue_HighlightMessage.cpp">
+      <Filter>06. GameObject - UI\02. Dialogue\01. HighlightMessage</Filter>
+    </ClCompile>
+    <ClCompile Include="..\Private\UI_HUD_Pointer.cpp">
+      <Filter>06. GameObject - UI\00. HUD\03. Pointer</Filter>
+    </ClCompile>
+    <ClCompile Include="..\Private\UI_Dialogue_EngageMessage.cpp">
+      <Filter>06. GameObject - UI\02. Dialogue\04. EngageMessage</Filter>
+    </ClCompile>
+    <ClCompile Include="..\private\AfterImage.cpp">
+      <Filter>04. GameObject - Effect\AfterImage</Filter>
+    </ClCompile>
+    <ClCompile Include="..\private\Beauvoir_Bullet.cpp">
+      <Filter>02. GameObject - Model\02 .Enemy - Boss\00. Beauvoir\BeauvoirBullet</Filter>
+    </ClCompile>
+    <ClCompile Include="..\private\Beauvoir_FireMissile.cpp">
+      <Filter>02. GameObject - Model\02 .Enemy - Boss\00. Beauvoir\BeauvoirFireMissile</Filter>
+    </ClCompile>
+    <ClCompile Include="..\private\Beauvoir_NaviBullet.cpp">
+      <Filter>02. GameObject - Model\02 .Enemy - Boss\00. Beauvoir\BeauvoirNaviBullet</Filter>
+    </ClCompile>
+    <ClCompile Include="..\private\Beauvoir_RisingBullet.cpp">
+      <Filter>02. GameObject - Model\02 .Enemy - Boss\00. Beauvoir\BeauvoirRisingBullet</Filter>
+    </ClCompile>
+    <ClCompile Include="..\private\Level_OperaBackStage.cpp">
+      <Filter>01. Level\06. Opera BackStage</Filter>
+    </ClCompile>
+    <ClCompile Include="..\private\CrossAndroid.cpp">
+      <Filter>02. GameObject - Model\01. Enemy - Seed\02.CrossAndroid</Filter>
+    </ClCompile>
+    <ClCompile Include="..\private\Beauvoir_Skirt.cpp">
+      <Filter>02. GameObject - Model\02 .Enemy - Boss\00. Beauvoir\BeauvoirSkirt</Filter>
+    </ClCompile>
+    <ClCompile Include="..\private\Beauvoir_Hair.cpp">
+      <Filter>02. GameObject - Model\02 .Enemy - Boss\00. Beauvoir\BeauvoirHair</Filter>
+    </ClCompile>
+    <ClCompile Include="..\Private\Sky.cpp">
+      <Filter>02. GameObject - Model\06. Sky</Filter>
+    </ClCompile>
+    <ClCompile Include="..\Private\Normal_Attack.cpp">
+      <Filter>02. GameObject - Model\01. Enemy - Seed\00. Humanoid Small\00.Normal_Attack</Filter>
+    </ClCompile>
+    <ClCompile Include="..\private\Humanoid_Clown.cpp">
+      <Filter>02. GameObject - Model\01. Enemy - Seed\03.Humanoid_Clown</Filter>
+    </ClCompile>
+    <ClCompile Include="..\Private\UI_Core_CinematicScreen.cpp">
+      <Filter>06. GameObject - UI\01. Core\04. CinematicScreen</Filter>
+    </ClCompile>
+    <ClCompile Include="..\Private\UI_Core_HeadButton.cpp">
+      <Filter>06. GameObject - UI\01. Core\02. Head\01. Button</Filter>
+    </ClCompile>
+    <ClCompile Include="..\Private\Player.cpp">
+      <Filter>02. GameObject - Model\00. 2B</Filter>
+    </ClCompile>
+    <ClCompile Include="..\private\Level_AmusementPark.cpp">
+      <Filter>01. Level\05. Amusement Park</Filter>
+    </ClCompile>
+    <ClCompile Include="..\private\Level_RobotMilitary.cpp">
+      <Filter>01. Level\03. Robot Military</Filter>
+    </ClCompile>
+    <ClCompile Include="..\private\Zhuangzi.cpp">
+      <Filter>02. GameObject - Model\02 .Enemy - Boss\02. Zhuangzi</Filter>
+    </ClCompile>
+    <ClCompile Include="..\private\ZhuangziFireMissile.cpp">
+      <Filter>02. GameObject - Model\02 .Enemy - Boss\02. Zhuangzi\ZhuangziFireMissile</Filter>
+    </ClCompile>
+    <ClCompile Include="..\private\WholeRange.cpp">
+      <Filter>02. GameObject - Model\02 .Enemy - Boss\02. Zhuangzi\WholeRange</Filter>
+    </ClCompile>
+    <ClCompile Include="..\private\ZhuangziWeaponTrail.cpp">
+      <Filter>02. GameObject - Model\02 .Enemy - Boss\02. Zhuangzi\ZhuangziWeaponTrail</Filter>
+    </ClCompile>
+    <ClCompile Include="..\private\Engels.cpp">
+      <Filter>02. GameObject - Model\02 .Enemy - Boss\03. Engels</Filter>
+    </ClCompile>
+    <ClCompile Include="..\private\ZhuangziBridge.cpp">
+      <Filter>02. GameObject - Model\02 .Enemy - Boss\02. Zhuangzi\ZhuangziBridge</Filter>
+    </ClCompile>
+    <ClCompile Include="..\private\Level_ZhuangziStage.cpp">
+      <Filter>01. Level\04. ZhuangziStage</Filter>
+    </ClCompile>
+    <ClCompile Include="..\Private\Event_Collider.cpp">
+      <Filter>09. EventCollider</Filter>
+    </ClCompile>
+    <ClCompile Include="..\private\GameObjectModel.cpp">
+      <Filter>02. GameObject - Model\99. ModelBase</Filter>
+    </ClCompile>
+    <ClCompile Include="..\private\Trail.cpp">
+      <Filter>04. GameObject - Effect\Trail</Filter>
+    </ClCompile>
+    <ClCompile Include="..\private\ObjectPool.cpp">
+      <Filter>09. EventCollider\09. ObjectPool</Filter>
+    </ClCompile>
+    <ClCompile Include="..\private\UI_Core_Controller.cpp">
+      <Filter>06. GameObject - UI\01. Core</Filter>
+    </ClCompile>
+    <ClCompile Include="..\Private\UI_Core_DecoLine.cpp">
+      <Filter>06. GameObject - UI\01. Core\02. Head\02. DecoLine</Filter>
+    </ClCompile>
+    <ClCompile Include="..\Private\UI_Core_Status.cpp">
+      <Filter>06. GameObject - UI\01. Core\03. Body\01. RightSide\Status</Filter>
+    </ClCompile>
+    <ClCompile Include="..\Private\UI_Core_Title.cpp">
+      <Filter>06. GameObject - UI\01. Core\02. Head\00. Title</Filter>
+    </ClCompile>
+    <ClCompile Include="..\Private\UI_Core_ScrollList.cpp">
+      <Filter>06. GameObject - UI\01. Core\03. Body\00. LeftSide\ScrollList</Filter>
+    </ClCompile>
+    <ClCompile Include="..\Private\UI_Core_ListLine.cpp">
+      <Filter>06. GameObject - UI\01. Core\03. Body\00. LeftSide\ScrollList\ListLine</Filter>
+    </ClCompile>
+    <ClCompile Include="..\private\ZhuangziDoor.cpp">
+      <Filter>02. GameObject - Model\02 .Enemy - Boss\02. Zhuangzi\ZhuangziDoor</Filter>
+    </ClCompile>
+    <ClCompile Include="..\private\BeauvoirCurtain.cpp">
+      <Filter>02. GameObject - Model\03. BackGround\01. Curtain</Filter>
+    </ClCompile>
+    <ClCompile Include="..\private\CameraMgr.cpp">
+      <Filter>93. Camera Manager</Filter>
+    </ClCompile>
+    <ClCompile Include="..\private\Camera_Cutscene.cpp">
+      <Filter>03. GameObject - Camera\CutScene Camera</Filter>
+    </ClCompile>
+    <ClCompile Include="..\private\Inventory.cpp">
+      <Filter>10. Components\Inventory</Filter>
+    </ClCompile>
+    <ClCompile Include="..\Private\UI_HUD_DirectionIndicator.cpp">
+      <Filter>06. GameObject - UI\00. HUD\07. DirectionIndicator</Filter>
+    </ClCompile>
+    <ClCompile Include="..\Private\UI_HUD_StageObjective.cpp">
+      <Filter>06. GameObject - UI\00. HUD\08. StageObjective</Filter>
+    </ClCompile>
+    <ClCompile Include="..\Private\DropItem.cpp">
+      <Filter>02. GameObject - Model\08. DropItem</Filter>
+    </ClCompile>
+    <ClCompile Include="..\Private\UI_HUD_Controller.cpp">
+      <Filter>06. GameObject - UI\00. HUD</Filter>
+    </ClCompile>
+    <ClCompile Include="..\Private\Coaster.cpp">
+      <Filter>02. GameObject - Model\07. Coaster</Filter>
+    </ClCompile>
+    <ClCompile Include="..\private\Level_EngelsStage.cpp">
+      <Filter>01. Level\07. EngelsStage</Filter>
+    </ClCompile>
+    <ClCompile Include="..\private\VendingMachine.cpp">
+      <Filter>02. GameObject - Model\09. Vending Machine</Filter>
+    </ClCompile>
+    <ClCompile Include="..\private\EngelsFireMissile.cpp">
+      <Filter>02. GameObject - Model\02 .Enemy - Boss\03. Engels\EngelsFireMissile</Filter>
+    </ClCompile>
+    <ClCompile Include="..\private\EngelsHitPart.cpp">
+      <Filter>02. GameObject - Model\02 .Enemy - Boss\03. Engels\EngelsHitPart</Filter>
+    </ClCompile>
+    <ClCompile Include="..\Private\Clown_Fly.cpp">
+      <Filter>02. GameObject - Model\01. Enemy - Seed\04.Clown Fly</Filter>
+    </ClCompile>
+    <ClCompile Include="..\Private\UI_Core_Detail.cpp">
+      <Filter>06. GameObject - UI\01. Core\03. Body\01. RightSide\Detail</Filter>
+    </ClCompile>
+    <ClCompile Include="..\private\MiniGame_IronFist.cpp">
+      <Filter>94. MiniGame\00. MiniGame\MiniGame_IronFist</Filter>
+    </ClCompile>
+    <ClCompile Include="..\private\Iron_Android9S.cpp">
+      <Filter>02. GameObject - Model\04. 9S\00.Iron9S</Filter>
+    </ClCompile>
+    <ClCompile Include="..\private\Camera_IronFist.cpp">
+      <Filter>03. GameObject - Camera\Camera_IronFist</Filter>
+    </ClCompile>
+    <ClCompile Include="..\private\MiniGameBuilding.cpp">
+      <Filter>02. GameObject - Model\03. BackGround\02.MiniGameBuilding</Filter>
+    </ClCompile>
+    <ClCompile Include="..\private\Iron_Humanoid_Small.cpp">
+      <Filter>02. GameObject - Model\01. Enemy - Seed\04.Iron_Humanoid_Small</Filter>
+    </ClCompile>
+    <ClCompile Include="..\private\IronGauntlet.cpp">
+      <Filter>02. GameObject - Model\04. 9S\00.Iron9S\IronGauntlet</Filter>
+    </ClCompile>
+    <ClCompile Include="..\Private\UI_Core_SelectList.cpp">
+      <Filter>06. GameObject - UI\01. Core\03. Body\02. Selector\SelectList</Filter>
+    </ClCompile>
+    <ClCompile Include="..\Private\UI_Core_SelectLine.cpp">
+      <Filter>06. GameObject - UI\01. Core\03. Body\02. Selector\SelectList\SelectLine</Filter>
+    </ClCompile>
+    <ClCompile Include="..\Private\UI_Core_WeaponSlot.cpp">
+      <Filter>06. GameObject - UI\01. Core\03. Body\01. RightSide\WeaponSlot</Filter>
+    </ClCompile>
+    <ClCompile Include="..\private\AnimationTrail.cpp">
+      <Filter>04. GameObject - Effect\AnimationTrail</Filter>
+    </ClCompile>
+    <ClCompile Include="..\Private\UI_Dialogue_HackingMessage.cpp">
+      <Filter>06. GameObject - UI\02. Dialogue\05. HackingMessage</Filter>
+    </ClCompile>
+    <ClCompile Include="..\private\LogoTitle.cpp">
+      <Filter>05. GameObject - Projection\00. Background\01. LogoTitle</Filter>
+    </ClCompile>
+    <ClCompile Include="..\private\LogoGear.cpp">
+      <Filter>05. GameObject - Projection\00. Background\02. Logo Gear</Filter>
+    </ClCompile>
+    <ClCompile Include="..\private\LogoAnyKey.cpp">
+      <Filter>05. GameObject - Projection\00. Background\03. Logo AnyKey</Filter>
+    </ClCompile>
+    <ClCompile Include="..\private\LogoCopyRight.cpp">
+      <Filter>05. GameObject - Projection\00. Background\04. Logo CopyRights</Filter>
+    </ClCompile>
+    <ClCompile Include="..\private\LoadingScreen.cpp">
+      <Filter>05. GameObject - Projection\00. Background\05. Loading Screen</Filter>
+    </ClCompile>
+    <ClCompile Include="..\private\LoadingPercent.cpp">
+      <Filter>05. GameObject - Projection\00. Background\06. Loading Percent</Filter>
+    </ClCompile>
+    <ClCompile Include="..\private\LoadingEmil.cpp">
+      <Filter>05. GameObject - Projection\00. Background\07. Loading Emil</Filter>
+    </ClCompile>
+    <ClCompile Include="..\Private\UI_Dialogue_HackingSuccessMessage.cpp">
+      <Filter>06. GameObject - UI\02. Dialogue\06. HackingSuccessMessage</Filter>
+    </ClCompile>
+    <ClCompile Include="..\private\DecalCube.cpp">
+      <Filter>11. Decal</Filter>
+    </ClCompile>
+    <ClCompile Include="..\Private\UI_HUD_MiniGameScreen.cpp">
+      <Filter>06. GameObject - UI\00. HUD\98. MiniGameScreen</Filter>
+    </ClCompile>
+    <ClCompile Include="..\Private\UI_HUD_Hpbar_MiniGame.cpp">
+      <Filter>06. GameObject - UI\00. HUD\01. HpBar\MiniGame</Filter>
+    </ClCompile>
+    <ClCompile Include="..\Private\UI_HUD_QuickSlot.cpp">
+      <Filter>06. GameObject - UI\00. HUD\05. MiniMap</Filter>
+    </ClCompile>
+  </ItemGroup>
+  <ItemGroup>
+    <Image Include="small.ico">
+      <Filter>98. Default\02. Resource</Filter>
+    </Image>
+    <Image Include="Client.ico">
+      <Filter>98. Default\02. Resource</Filter>
+    </Image>
+  </ItemGroup>
+  <ItemGroup>
+    <ResourceCompile Include="Client.rc">
+      <Filter>98. Default\02. Resource</Filter>
+    </ResourceCompile>
+  </ItemGroup>
+  <ItemGroup>
+    <Text Include="ReadMe.txt">
+      <Filter>98. Default\01. DontUsed</Filter>
+    </Text>
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="..\Bin\ShaderFiles\Shader_Defines.hlsli">
+      <Filter>97. ShaderFiles</Filter>
+    </None>
+  </ItemGroup>
+  <ItemGroup>
+    <FxCompile Include="..\Bin\ShaderFiles\Shader_Model.hlsl">
+      <Filter>97. ShaderFiles</Filter>
+    </FxCompile>
+    <FxCompile Include="..\Bin\ShaderFiles\Shader_Cube.hlsl">
+      <Filter>97. ShaderFiles</Filter>
+    </FxCompile>
+    <FxCompile Include="..\Bin\ShaderFiles\Shader_Rect.hlsl">
+      <Filter>97. ShaderFiles</Filter>
+    </FxCompile>
+    <FxCompile Include="..\Bin\ShaderFiles\Shader_Terrain.hlsl">
+      <Filter>97. ShaderFiles</Filter>
+    </FxCompile>
+    <FxCompile Include="..\Bin\ShaderFiles\Shader_RectInstance.hlsl">
+      <Filter>97. ShaderFiles</Filter>
+    </FxCompile>
+    <FxCompile Include="..\Bin\ShaderFiles\Shader_Pointbillboard.hlsl">
+      <Filter>97. ShaderFiles</Filter>
+    </FxCompile>
+    <FxCompile Include="..\Bin\ShaderFiles\Shader_EffectMesh.hlsl">
+      <Filter>97. ShaderFiles</Filter>
+    </FxCompile>
+    <FxCompile Include="..\Bin\ShaderFiles\Shader_PointInstance.hlsl">
+      <Filter>97. ShaderFiles</Filter>
+    </FxCompile>
+    <FxCompile Include="..\ShaderFiles\Shader_PostProcessing.hlsl">
+      <Filter>97. ShaderFiles</Filter>
+    </FxCompile>
+    <FxCompile Include="..\Bin\ShaderFiles\Shader_Trail.hlsl">
+      <Filter>97. ShaderFiles</Filter>
+    </FxCompile>
+  </ItemGroup>
+</Project>
